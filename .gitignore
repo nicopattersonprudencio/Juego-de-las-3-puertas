@@ -1,2 +1,15 @@
 # Godot 4+ specific ignores
 .godot/
+.import/
+
+# Export settings (opcionales)
+export.cfg
+export_presets.cfg
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
