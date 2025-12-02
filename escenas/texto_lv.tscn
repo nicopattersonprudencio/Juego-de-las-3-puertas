@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://dhu3topp324b7"]
+
+[ext_resource type="Script" uid="uid://di0y5tass72t4" path="res://scripts/texto_lv.gd" id="1_m3o3g"]
+[ext_resource type="FontFile" uid="uid://cf11hy040io7b" path="res://fuentes/Pixel Digivolve.otf" id="2_y1o2h"]
+[ext_resource type="Shader" uid="uid://bi0co0ph4fmmn" path="res://shaders/texto_lv.gdshader" id="3_ffm0k"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_m57ig"]
+shader = ExtResource("3_ffm0k")
+shader_parameter/pixel_size = 100.0
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_m3o3g")
+
+[node name="Label" type="Label" parent="."]
+material = SubResource("ShaderMaterial_m57ig")
+offset_left = -53.0
+offset_top = -68.0
+offset_right = 61.0
+offset_bottom = -32.0
+theme_override_colors/font_color = Color(0.319429, 0.222789, 0.435342, 1)
+theme_override_fonts/font = ExtResource("2_y1o2h")
+theme_override_font_sizes/font_size = 30
+text = "nivel 1"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3, 3)
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

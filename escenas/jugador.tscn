@@ -1,0 +1,134 @@
+[gd_scene load_steps=46 format=3 uid="uid://bg5gn5vuuvmsc"]
+
+[ext_resource type="Texture2D" uid="uid://dsarbcvydxwko" path="res://sprites - copia/monje_frente.png" id="1_w50b2"]
+[ext_resource type="Texture2D" uid="uid://b40e23wspnija" path="res://sprites - copia/monje_espalda_caminando_4.png" id="2_03ud1"]
+[ext_resource type="Script" uid="uid://cjhftyy1erqqv" path="res://scripts/Sprite2D.gd" id="2_325se"]
+[ext_resource type="Texture2D" uid="uid://dxewimx08cqtd" path="res://sprites - copia/intercambiar_28.png" id="2_505ni"]
+[ext_resource type="Texture2D" uid="uid://dffqhuukb71k0" path="res://sprites - copia/monje_espalda_caminando_2.png" id="2_hst2m"]
+[ext_resource type="Texture2D" uid="uid://blwbqmbvs03ph" path="res://sprites - copia/monje_perfil.png" id="2_tuv4g"]
+[ext_resource type="Texture2D" uid="uid://dmlqmnh3pp7uo" path="res://sprites - copia/monje_espalda.png" id="2_txm0r"]
+[ext_resource type="Texture2D" uid="uid://bbxf5fphcjbfw" path="res://sprites - copia/monje_frente_caminando_1.png" id="3_wt0ps"]
+[ext_resource type="Texture2D" uid="uid://d2ivyu2jm5kul" path="res://sprites - copia/monje_frente_caminando_2.png" id="4_w801x"]
+[ext_resource type="Texture2D" uid="uid://bqnrdhx653je4" path="res://sprites - copia/monje_frente_caminando_3.png" id="5_vwsq6"]
+[ext_resource type="Texture2D" uid="uid://7mnlj2o54t3d" path="res://sprites - copia/monje_frente_caminando_4.png" id="6_irdd7"]
+[ext_resource type="Texture2D" uid="uid://d1eu40m5oo8tm" path="res://sprites - copia/monje_espalda_caminando_1.png" id="9_1vdg2"]
+[ext_resource type="Texture2D" uid="uid://dvevtkak2nct4" path="res://sprites - copia/monje_espalda_caminando_3.png" id="10_aic3q"]
+[ext_resource type="Texture2D" uid="uid://ctel5e0jpp53" path="res://sprites - copia/monje_perfil_caminando_1.png" id="13_verid"]
+[ext_resource type="Texture2D" uid="uid://ngxijb5s82c4" path="res://sprites - copia/monje_perfil_caminando_2.png" id="14_0stau"]
+[ext_resource type="Texture2D" uid="uid://ceus7xsfo3xc7" path="res://sprites - copia/monje_perfil_caminando_3.png" id="15_torea"]
+[ext_resource type="Texture2D" uid="uid://hcfbcqaihavr" path="res://sprites - copia/monje_perfil_caminando_4.png" id="16_ux363"]
+[ext_resource type="Texture2D" uid="uid://b4gxt0n6lpc4k" path="res://sprites - copia/intercambiar_1.png" id="18_kxtgd"]
+[ext_resource type="Texture2D" uid="uid://bs8r15cuy4446" path="res://sprites - copia/intercambiar_2.png" id="19_n6tsg"]
+[ext_resource type="Texture2D" uid="uid://cqso2k4dg7dka" path="res://sprites - copia/intercambiar_3.png" id="20_cd68b"]
+[ext_resource type="Texture2D" uid="uid://bhuexd3t4jls6" path="res://sprites - copia/intercambiar_4.png" id="21_txfts"]
+[ext_resource type="Texture2D" uid="uid://bufgvjgrfr3l0" path="res://sprites - copia/intercambiar_5.png" id="22_vhs6l"]
+[ext_resource type="Texture2D" uid="uid://blvcbf5gxrkt1" path="res://sprites - copia/intercambiar_6.png" id="23_f56yw"]
+[ext_resource type="Texture2D" uid="uid://bmsmub2n75q1r" path="res://sprites - copia/intercambiar_7.png" id="24_ss8b6"]
+[ext_resource type="Texture2D" uid="uid://c1l5lcyp0p0xq" path="res://sprites - copia/intercambiar_8.png" id="25_tl08h"]
+[ext_resource type="Texture2D" uid="uid://2kqbh3ndes72" path="res://sprites - copia/intercambiar_9.png" id="26_y7pal"]
+[ext_resource type="Texture2D" uid="uid://bvjuupa1af860" path="res://sprites - copia/intercambiar_10.png" id="27_x7o8e"]
+[ext_resource type="Texture2D" uid="uid://cqa750v1wu5d1" path="res://sprites - copia/intercambiar_11.png" id="28_53jq8"]
+[ext_resource type="Texture2D" uid="uid://cpfiq8vijr74c" path="res://sprites - copia/intercambiar_12.png" id="29_xasjp"]
+[ext_resource type="Texture2D" uid="uid://cmw4500htdtte" path="res://sprites - copia/intercambiar_13.png" id="30_2sfy2"]
+[ext_resource type="Texture2D" uid="uid://bqw3o3hpxhu6j" path="res://sprites - copia/intercambiar_14.png" id="31_v2g1x"]
+[ext_resource type="Texture2D" uid="uid://dpk070iqkgtv2" path="res://sprites - copia/intercambiar_15.png" id="32_j1qtm"]
+[ext_resource type="Texture2D" uid="uid://cp52uh4tjdg7f" path="res://sprites - copia/intercambiar_21.png" id="38_epmxk"]
+[ext_resource type="Texture2D" uid="uid://cluvh318cjiwq" path="res://sprites - copia/intercambiar_22.png" id="39_1vlwf"]
+[ext_resource type="Texture2D" uid="uid://dw0xy1a6veo1o" path="res://sprites - copia/intercambiar_23.png" id="40_gja2f"]
+[ext_resource type="Texture2D" uid="uid://cqdpybr6rhs3r" path="res://sprites - copia/intercambiar_24.png" id="41_eb6sg"]
+[ext_resource type="Texture2D" uid="uid://do6ucqqajcg73" path="res://sprites - copia/intercambiar_25.png" id="42_80e41"]
+[ext_resource type="Texture2D" uid="uid://c7vlthidx5p3k" path="res://sprites - copia/intercambiar_26.png" id="43_eogva"]
+[ext_resource type="Texture2D" uid="uid://ct0rdxb4mxokl" path="res://sprites - copia/intercambiar_27.png" id="44_q3f1l"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4x2s2"]
+size = Vector2(12, 4)
+
+[sub_resource type="Animation" id="Animation_n0vv4"]
+resource_name = "caminar_espalda"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.3, 0.5, 0.6, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("9_1vdg2"), ExtResource("2_03ud1"), ExtResource("2_txm0r"), ExtResource("10_aic3q"), ExtResource("2_hst2m"), ExtResource("2_txm0r")]
+}
+
+[sub_resource type="Animation" id="Animation_ueqm4"]
+resource_name = "caminar_frente"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.3, 0.5, 0.6, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("5_vwsq6"), ExtResource("6_irdd7"), ExtResource("1_w50b2"), ExtResource("3_wt0ps"), ExtResource("4_w801x"), ExtResource("1_w50b2")]
+}
+
+[sub_resource type="Animation" id="Animation_33ioy"]
+resource_name = "caminar_perfil_derecho"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.3, 0.5, 0.6, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("13_verid"), ExtResource("14_0stau"), ExtResource("2_tuv4g"), ExtResource("15_torea"), ExtResource("16_ux363"), ExtResource("2_tuv4g")]
+}
+
+[sub_resource type="Animation" id="Animation_uq2cn"]
+resource_name = "intercambiar"
+length = 1.4
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("2_txm0r"), ExtResource("18_kxtgd"), ExtResource("19_n6tsg"), ExtResource("20_cd68b"), ExtResource("21_txfts"), ExtResource("22_vhs6l"), ExtResource("23_f56yw"), ExtResource("24_ss8b6"), ExtResource("25_tl08h"), ExtResource("26_y7pal"), ExtResource("27_x7o8e"), ExtResource("28_53jq8"), ExtResource("29_xasjp"), ExtResource("30_2sfy2"), ExtResource("31_v2g1x"), ExtResource("32_j1qtm"), ExtResource("32_j1qtm"), ExtResource("32_j1qtm"), ExtResource("32_j1qtm"), ExtResource("32_j1qtm"), ExtResource("32_j1qtm"), ExtResource("38_epmxk"), ExtResource("39_1vlwf"), ExtResource("40_gja2f"), ExtResource("41_eb6sg"), ExtResource("42_80e41"), ExtResource("43_eogva"), ExtResource("44_q3f1l"), ExtResource("2_505ni")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_25xp2"]
+_data = {
+&"caminar_espalda": SubResource("Animation_n0vv4"),
+&"caminar_frente": SubResource("Animation_ueqm4"),
+&"caminar_perfil_derecho": SubResource("Animation_33ioy"),
+&"intercambiar": SubResource("Animation_uq2cn")
+}
+
+[node name="jugador" type="CharacterBody2D" groups=["jugador"]]
+script = ExtResource("2_325se")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("2_505ni")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_4x2s2")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_25xp2")
+}

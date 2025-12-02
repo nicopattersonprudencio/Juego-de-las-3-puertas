@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://gvqludn2jr3e"]
+
+[ext_resource type="Script" uid="uid://dphm70ib41adw" path="res://scripts/caja_texto.gd" id="1_ep7x6"]
+[ext_resource type="Texture2D" uid="uid://stwhsnivfi8q" path="res://sprites - copia/cuadro_texto.png" id="2_c8g8c"]
+[ext_resource type="FontFile" uid="uid://cf11hy040io7b" path="res://fuentes/Pixel Digivolve.otf" id="2_n4138"]
+[ext_resource type="AudioStream" uid="uid://by1j1t537msux" path="res://sonidos/textos digitales.mp3" id="4_2mv8j"]
+
+[node name="Node2D" type="MarginContainer"]
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 49.0
+offset_bottom = 49.0
+script = ExtResource("1_ep7x6")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+texture_filter = 1
+layout_mode = 2
+texture = ExtResource("2_c8g8c")
+region_rect = Rect2(0, 0, 32, 32)
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="Label" type="Label" parent="MarginContainer"]
+texture_filter = 1
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_n4138")
+theme_override_font_sizes/font_size = 9
+vertical_alignment = 1
+
+[node name="LetterDisplayTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="SfxPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_2mv8j")
+
+[connection signal="timeout" from="LetterDisplayTimer" to="." method="_on_letter_display_timer_timeout"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b6r8vcpq2oric"
+path="res://.godot/imported/Page Turn Sound Effect! Flip Sound Effect!.mp3-d73adf53dfe52acf18b60da74e2040e1.mp3str"
+
+[deps]
+
+source_file="res://sonidos/Page Turn Sound Effect! Flip Sound Effect!.mp3"
+dest_files=["res://.godot/imported/Page Turn Sound Effect! Flip Sound Effect!.mp3-d73adf53dfe52acf18b60da74e2040e1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
